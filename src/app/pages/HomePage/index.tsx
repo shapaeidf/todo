@@ -1,3 +1,4 @@
+import TodoInput from 'app/components/TodoInput';
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components';
@@ -49,6 +50,7 @@ export function HomePage() {
       <Wrapper>
         <Box>
           <Title>할 일</Title>
+          <TodoInput />
           <TodoList>
             <TodoItem>
               <TodoCheck type="checkbox" />
